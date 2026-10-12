@@ -1,0 +1,4 @@
+# HyperAI'nin kendi modeli için minimum çalışma bağımlılığı.
+# Hazır model sağlayıcısı veya dış LLM SDK'sı yoktur.
+torch>=2.2,<3
+numpy>=1.26,<3

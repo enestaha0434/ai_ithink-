@@ -1,0 +1,6 @@
+# RTX/NVIDIA GPU için resmi PyTorch CUDA 12.6 paketi.
+# Önce: python -m pip install --upgrade --force-reinstall -r requirements-cuda.txt
+--index-url https://download.pytorch.org/whl/cu126
+--extra-index-url https://pypi.org/simple
+torch==2.13.0
+numpy>=1.26,<3
